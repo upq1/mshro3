@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Amiri&display=swap);
+
+* {
+    font-family: amiri;
+    overflow: auto;
+
+}
+
+header {
+    background-image: url(images/1.png);
+    background-color:  rgba(181, 179, 179, 0.3);
+}
+
+header h1, h2{
+    text-align: right;
+    margin-right: 300px;
+    
+}
+
+article  {
+    background-image: url(images/2.png);
+    background-color:  rgba(181, 179, 179, 0.3);  
+    text-align: center; 
+    
+
+}
+
+article h3{
+    background: linear-gradient(to right, rgb(45, 252, 4), rgb(99, 27, 93));
+    -webkit-text-fill-color:  transparent;
+    -webkit-background-clip: text;
+    font-size: 50px;
+}
+a {
+    text-decoration: none;
+} 
